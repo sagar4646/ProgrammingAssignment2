@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+## makeCacheMatrix converts a matrix into a special matrix  
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
     set <- function(y) {
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+## cacheSolve checks if the inverse is already calculated for a matrix
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
     m <- x$getinverse()
